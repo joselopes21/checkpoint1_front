@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    position: relative;
+    background-color: aquamarine;
+    text-align: center;
+
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.frasesDaCidade {
+    margin-left: 13%;
+    text-align: center;
+    font-size: 60px;
+}
+
+nav {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    text-align: center;
+
+}
+
+.botaoHome {
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(0 0 0 / 20%);
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    transition-property: background-color, font-weight;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.botaoCuriosidades {
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(0 0 0 / 20%);
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    transition-property: background-color, font-weight;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.botaoVideo {
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(0 0 0 / 20%);
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    transition-property: background-color, font-weight;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.container {
+    background-image: url(../img/bannermcz2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    justify-content:center;
+    font-family: 'Roboto';
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+ 
+.cards {
+    display: flex;
+    width: 834px;
+    height: 597px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.gastronomia {
+    background-image: url(../img/gastronomiamcz.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    border-radius: 31px 31px 31px 31px;
+}
+
+.card__chicletecamarao {
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    border-radius: 31px 31px 31px 31px;
+}
+
+.praia {
+    background-image: url(../img/maceio1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 280px ;
+    border-radius: 31px 31px 31px 31px ;
+}
+
+.card__praia {
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    border-radius: 31px 31px 31px 31px;
+}
+
+.lagoa {
+    background-image: url(../img/lagoamcz.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    border-radius: 31px 31px 31px 31px;
+}
+
+.cardlagoa {
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    border-radius: 31px 31px 31px 31px;
+}
+
+.titulo_card {
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.texto {
+    margin: 30px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+    
+.videomcz {
+    margin-top: 200px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.listaDoFooter {
+    padding: 15px;
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.github {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+}
+
